@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="https://kit.fontawesome.com/51ac2c1573.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="animate.css" />
+	</head>
+	<body>
+		<div class="container">
+			<!-- Создание бургер меню -->
+			<div class="header">
+				<div class="header__logo">Белая радуга</div>
+				<nav class="header__nav">
+					<ul class="menu" id="menu">
+						<li><a href="#tab">О нас</a></li>
+						<li><a href="#uslugi">Услуги</a></li>
+						<li><a href="#modal-open">Врачи</a></li>
+						<li><a href="#accordion">Контакты</a></li>
+						<li><a href="#accordion">Цены</a></li>
+					</ul>
+					<div class="hamb-filed" id="hamb">
+						<i class="fa-duotone fa-bars"></i>
+					</div>
+				</nav>
+			</div>
+			<div class="popup" id="popup">
+							
+			</div>
+
+						<!-- Слайдер 2 вариант-->
+						<div class="sliderNew" id="slider">
+							<div class="wrap">
+								<div class="sliderNew-item fade">
+									<img src="./img/holl.JPG" alt="" />
+								</div>
+								<div class="sliderNew-item fade">
+									<img src="./img/kreslo.JPG" alt="" />
+								</div>
+								<div class="sliderNew-item fade">
+									<img src="./img/anestesia.jpeg" alt="" />
+								</div>
+								<div class="sliderNew-item fade">
+									<img src="./img/microscope.jpeg" alt="" />
+								</div>
+								<div class="sliderNew-item fade">
+									<img src="./img/ screen.JPG" alt="" />
+								</div>
+								<div class="prev">&lt;</div>
+								<div class="next">&gt;</div>
+							</div>
+							<div class="sliderNew-dots">
+								<div class="dot dot-active"></div>
+								<div class="dot"></div>
+								<div class="dot"></div>
+								<div class="dot"></div>
+								<div class="dot"></div>
+							</div>
+						</div>
+
+			<!-- Табы -->
+
+			<body>
+				<div class="ulybka">
+					<img src="img/ulybka.png" alt="" class="ulybka_photo">
+					<h1 class="ulybka_text">Начнем знакомство<br> с главного — с улыбки</h1>
+					<p class="ulybka_textone">Мы искренне рады менять жизнь<br>людей, даря им возможность свободно<br>улыбаться и чувствовать себя здоровыми</p>
+				</div>
+				<div class="gazarov">
+					<img src="img/gazarov.png" alt="" class="gazarov_photo">
+					<p class="gazarov_text">Мы заинтересованы в высоком качестве вашей жизни, а также в том, чтобы лечение 
+					прошло максимально комфортно и быстро. Для этого мы используем современное оборудование и приглашаем на 
+					работу квалифицированных врачей, которые окружат вас заботой, предложат оптимальное
+					лечение и ответят на все ваши вопросы.</p>
+					<p class="gazarov_text1">Приходите в "Белую радугу" за красивой улыбкой.</p>
+					<h1 class="gazarov_name">Газаров Артем Ервандович</h1>
+					<p class="gazarov_profession">Основатель клиники</p>
+				</div>
+				<div class="info" id="tab">
+					<div class="info-header">
+						<div class="info-header-tab active">Инновации</div>
+						<div class="info-header-tab">Надежность</div>
+						<div class="info-header-tab">Забота</div>
+					</div>
+					<div class="info-tabcontent fade">
+						<div class="photo">
+							<img src="img/инновации.jpeg" alt="Massage" />
+						</div>
+						<div class="description">
+							<div class="description-title">Сеть семейных высокотехнологичных стоматологий</div>
+							<div class="description-text">
+								У нас уже 5 клиник в Москве и сейчас мы открываем новую клинику в Сочи.
+							</div>
+							<button id="myBtn" class="description-btn">ПОДРОБНЕЕ О КЛИНИКЕ В СОЧИ</button>
+						</div>
+					</div>
+					<div class="info-tabcontent fade">
+						<div class="photo">
+							<img src="img/надежность.jpeg" alt="Massage" />
+						</div>
+						<div class="description">
+							<div class="description-title">Будьте уверены</div>
+							<div class="description-text">
+								Надежный врач - профессонал и ваш друг. Сохраните сияющую улыбку на долгие годы.
+							</div>
+							<button id="myBtn" class="description-btn">ПОДРОБНЕЕ О ВРАЧАХ</button>
+						</div>
+					</div>
+					<div class="info-tabcontent fade">
+						<div class="photo">
+							<img src="img/забота.jpeg" alt="Massage" />
+						</div>
+						<div class="description">
+							<div class="description-title">Приходите в клиники</div>
+							<div class="description-text">
+								Экспертная профилактика стоматологического здоровья. 100% защита от кариеса
+							</div>
+							<button id="myBtn" class="description-btn">О ГИГИЕНЕ</button>
+						</div>
+					</div>
+				</div>
+			<script src="script.js"></script>
+			<div class="ulybka">
+				<img src="img/uslugi.jpeg" alt="" class="uslugi_photo" id="uslugi">
+				<h1 class="uslugi_text">Услуги клиники</h1>
+				<p class="uslugi_textone">Посещайте профилактические осмотры каждые шесть<br>официально гарантируем вам отсутствие проблем с зубами</p>
+			</div>
+		</body>
+		<div class="pc-tab">
+			<input checked="checked" id="tab1" type="radio" name="pct" />
+			<input id="tab2" type="radio" name="pct" />
+			<input id="tab3" type="radio" name="pct" />
+			  <nav>
+				<ul>
+				  <li class="tab1">
+					<label for="tab1">Профилактика</label>
+				  </li>
+				  <li class="tab2">
+					<label for="tab2">Диагностика</label>
+				  </li>
+				  <li class="tab3">
+					<label for="tab3">Терапия</label>
+				  </li>
+				</ul>
+			  </nav>
+			  <section>
+				<div class="tab1">
+				  <p>
+					Особенности гигиены для пациентов с имплантами<br>
+					Особенности гигиены для пациентов с брекетами<br>
+					Профессиональная гигиена<br>
+					Обучение гигиене зубов
+				</p>
+				</div>
+				<div class="tab2">
+				  <p>
+					Компьютерная томография зубов и полости рта<br>
+					Диагностика скрытого кариеса
+				</p>
+				</div>
+				<div class="tab3">
+				  <p>
+					Сохранение жизнеспособности пульпы<bR>
+					Лечение корневых каналов под микроскопом<br>
+					Лечение кариеса
+				</p>
+				</div>
+			  </section>
+			</div>
+			<h1 style="color: white; font-weight: 600;">Наша команда</h1>
+			<!-- Модальное окно -->
+			<div class="modal-open" id="modal-open">
+				<img class="modal-open__img" src="./img/vrachi.jpg" alt="" />
+				<p class="modal-open__descr">
+					Наш опыт заботы о клиентах основан на многолетней практике и стремлении сделать жизнь наших пациентов более полноценной. Быть красивым и счастливым - стремления наших пациентов, которые мы воплощаем в жизнь каждый день. 
+				</p>
+				<button id="open-modal__btn">Врачи</button>
+			</div>
+
+			<div id="modal" class="modal">
+				<div class="modal__content">
+					<span class="modal__close">&times;</span>
+					<!-- Слайдер 1 вариант -->
+					<div class="slider">
+						<div class="slider__container">
+							<img src="./img/Arletta.png" alt="" class="slider__image fade" />
+						</div>
+						<div class="slider__controls">
+							<div class="slider__dots">
+								<span class="slider__dot activ" onclick="changeIndex(0)"></span>
+								<span class="slider__dot" onclick="changeIndex(1)"></span>
+								<span class="slider__dot" onclick="changeIndex(2)"></span>
+							</div>
+							<button class="slider__nav slider__nav-left">&lt;</button>
+							<button class="slider__nav slider__nav-right">&gt;</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Модальное окно 2 вариант -->
+			<div class="cookies" id="cookies">
+				<div class="cookies__descr">
+					Пользуясь нашим сайтом, вы соглашаетесь с тем, что
+					<a class="cookies__link" href="#">мы используем cookies</a>
+				</div>
+				<div class="cookies__btn" id="cookies__btn">Окей</div>
+			</div>
+			<div class="ceny">
+				<img src="img/ceny.jpg" alt="" class="ceny_photo">
+				<h1 class="ceny_text">Стоимость услуг</h1>
+				<p class="ceny_textone">Прозрачные цены и понятные планы лечения</p>
+			</div>
+			<!-- Аккордион -->
+			<div id="accordion">
+				<p class="accordion-head">Консультации</p>
+				<div class="accordion-block">
+					Онлайн встреча с врачом 2 500 р.<br>
+					Консультация врача-стоматолога-терапевта 2 500 р.<br>
+					Консультация врача-стоматолога-ортопеда 2 500 р.<br>
+					Консультация врача-стоматолога-хирурга 2 500 р.<br>
+					Консультация стоматолога-ортодонта первичная 2 500 р.<br>
+					Повторная консультация врача-стоматолога-ортодонта 1 600 р.<br>
+					Консультация детского врача-стоматолога 2 500 р
+				</div>
+				<p class="accordion-head">Диагностика</p>
+				<div class="accordion-block">
+    			Конусно-лучевая томография 5 500 р.<br>
+    			Конусно-лучевая томография (повторная) 3 500 р.
+				</div>
+				<p class="accordion-head">Профилактика и гигиена</p>
+				<div class="accordion-block">
+
+					Профессиональная гигиена полости рта и зубов (первичная) 13 500 р.<br>
+					Профессиональная гигиена полости рта и зубов (регулярная) 11 000 р.<br>
+					При наличии брекет-системы профессиональная гигиена полости рта и зубов 16 000 р.<br>
+					Профессиональная гигиена полости рта и зубов (4 процедуры) 40 000 р.<br>
+					Профессиональная гигиена полости рта и зубов (4 процедуры, при наличии брекет-системы) 58 000 р.
+				
+				</div>
+				<p class="accordion-head">Терапевтическая стоматология</p>
+				<div class="accordion-block">
+					Лечение кариеса от 13 500 р.<br>
+					Реминерализирующая терапия Icon 6 500 р.<br>
+					Первичное лечение корневых каналов от 24 500 р.<br>
+					Повторное лечение корневых каналов (перелечивание) от 33 000 р.
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<H1 class="raduga">Белая радуга</H1>
+			<a href="#">Договор оказания услуг</a><br>
+			<a href="#">Политика конфеденциальности</a><br>
+			<a href="#">Пользовательское соглашение</a><br>
+			<a href="#">Страховые компании</a><br>
+			<a href="#">Полный перечень юридических услуг</a>
+		</div>
+		<script src="js/slider.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+
+</html>
